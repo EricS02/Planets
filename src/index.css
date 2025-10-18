@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;700&family=League+Spartan:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#070724] bg-[url('/background-stars.svg')] text-white font-spartan;
+  }
+}
